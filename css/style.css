@@ -1,0 +1,86 @@
+body {
+	background-image: url(../images/bq.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+	color: black;
+
+
+}
+/* .main links to div in html  */
+.main {
+	background-color: rgba(255,255,255, 0.8); /* 0.8 is opaque  */
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px; /* area by the font  */
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px 10px 10px blue;
+
+} 
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	letter-spacing: 8px;
+	font-family: 'Creepster', cursive;
+	color: red;
+
+
+}
+
+h2 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 14px;
+	color: red;
+	font-family: 'Creepster', cursive;
+
+}
+h3:hover {
+	cursor: pointer;
+	border-color: purple;
+	font-family: 'Creepster', cursive;
+	color: black;
+}
+h3 + * {
+		display: none;
+}
+
+h3 {font-family: 'Creepster', cursive;
+		color: red;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	border: 5px solid white;
+		border-radius: 50%;
+
+}
+
+p,
+ol,
+ul {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+	margin-top 10px;
+
+
+}
+
+a {
+	text-decoration: none;
+	color: purple;
+	font-weight: bold;
+
+}
+
+a:hover {
+		text-decoration: underline;
+		color: black;
+
+}
+
